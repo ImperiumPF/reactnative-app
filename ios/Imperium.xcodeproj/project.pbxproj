@@ -5,6 +5,7 @@
 	};
 	objectVersion = 46;
 	objects = {
+
 /* Begin PBXBuildFile section */
 		00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
 		00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
@@ -21,6 +22,9 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
+		14EE42ECF6754021B2FB7B03 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62E29EA331DE469C965BB49A /* EvilIcons.ttf */; };
+		22C6AB0A6BA448EEB366C169 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A1027B158214B84BCB61E99 /* Entypo.ttf */; };
+		2926E30D41394A56AC4E0F97 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 06676F64DF72423585E1C23D /* Octicons.ttf */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -34,21 +38,19 @@
 		2D16E6881FA4F8E400B85C8A /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D16E6891FA4F8E400B85C8A /* libReact.a */; };
 		2DCD954D1E0B4F2C00145EB5 /* ImperiumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ImperiumTests.m */; };
 		2DF0FFEE2056DD460020B375 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
-		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
-		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
-		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
-		22C6AB0A6BA448EEB366C169 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A1027B158214B84BCB61E99 /* Entypo.ttf */; };
-		14EE42ECF6754021B2FB7B03 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62E29EA331DE469C965BB49A /* EvilIcons.ttf */; };
-		E669215EABFB4F6DACA91E9C /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 414676E1DBC44624A14DA3FE /* FontAwesome.ttf */; };
-		6FDE4FD3720547CB8E5425BB /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0B0D36C7D56F4EE58710942F /* Foundation.ttf */; };
-		9E63B670B64447A4B48FB139 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 31217C12821F4708B7E54A67 /* Ionicons.ttf */; };
-		E1182896AB994BCCA0EB2834 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 290BB5B3EE48466D870D50B2 /* MaterialIcons.ttf */; };
-		2926E30D41394A56AC4E0F97 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 06676F64DF72423585E1C23D /* Octicons.ttf */; };
-		7CB26F407E0F4DC182150488 /* Roboto_medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A285F9D6B714739B09F8B47 /* Roboto_medium.ttf */; };
-		646D9ECE08A64EDC98EA1C1A /* Roboto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E0CF22C95D6473982D607A4 /* Roboto.ttf */; };
 		57672FF21EE64D57BDB9C011 /* rubicon-icon-font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 66D951F566EA4AD398F982CB /* rubicon-icon-font.ttf */; };
+		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
+		646D9ECE08A64EDC98EA1C1A /* Roboto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E0CF22C95D6473982D607A4 /* Roboto.ttf */; };
+		6FDE4FD3720547CB8E5425BB /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0B0D36C7D56F4EE58710942F /* Foundation.ttf */; };
+		7CB26F407E0F4DC182150488 /* Roboto_medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A285F9D6B714739B09F8B47 /* Roboto_medium.ttf */; };
+		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		84D5F5B9122048C78D7DCAF5 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12B9BD06FCC244FA83DB7BBB /* SimpleLineIcons.ttf */; };
+		9E63B670B64447A4B48FB139 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 31217C12821F4708B7E54A67 /* Ionicons.ttf */; };
+		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
+		B9FC73614931620B83A01E66 /* libPods-Imperium.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A62D8CE32E318006AE00D65 /* libPods-Imperium.a */; };
 		BD7ACE753DFC48E0BE3014E5 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A705498FA50E4F399DD44DAD /* Zocial.ttf */; };
+		E1182896AB994BCCA0EB2834 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 290BB5B3EE48466D870D50B2 /* MaterialIcons.ttf */; };
+		E669215EABFB4F6DACA91E9C /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 414676E1DBC44624A14DA3FE /* FontAwesome.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -337,6 +339,10 @@
 		00E356EE1AD99517003FC87E /* ImperiumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImperiumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* ImperiumTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImperiumTests.m; sourceTree = "<group>"; };
+		06676F64DF72423585E1C23D /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/native-base/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		0A62D8CE32E318006AE00D65 /* libPods-Imperium.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Imperium.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B0D36C7D56F4EE58710942F /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/native-base/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		12B9BD06FCC244FA83DB7BBB /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/native-base/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* Imperium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Imperium.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -347,25 +353,24 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Imperium/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Imperium/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
+		22D804A0C1D205FB33585ACD /* Pods-Imperium.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Imperium.release.xcconfig"; path = "Pods/Target Support Files/Pods-Imperium/Pods-Imperium.release.xcconfig"; sourceTree = "<group>"; };
+		290BB5B3EE48466D870D50B2 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/native-base/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		2A285F9D6B714739B09F8B47 /* Roboto_medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto_medium.ttf; path = "../node_modules/native-base/Fonts/Roboto_medium.ttf"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* Imperium-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Imperium-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* Imperium-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Imperium-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		31217C12821F4708B7E54A67 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/native-base/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		414676E1DBC44624A14DA3FE /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/native-base/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
+		62E29EA331DE469C965BB49A /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/native-base/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		66D951F566EA4AD398F982CB /* rubicon-icon-font.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "rubicon-icon-font.ttf"; path = "../node_modules/native-base/Fonts/rubicon-icon-font.ttf"; sourceTree = "<group>"; };
+		7509D57EADD020C60B87A7B5 /* Pods-Imperium.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Imperium.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Imperium/Pods-Imperium.debug.xcconfig"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
+		7A1027B158214B84BCB61E99 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/native-base/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		7E0CF22C95D6473982D607A4 /* Roboto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto.ttf; path = "../node_modules/native-base/Fonts/Roboto.ttf"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
+		A705498FA50E4F399DD44DAD /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/native-base/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
-		7A1027B158214B84BCB61E99 /* Entypo.ttf */ = {isa = PBXFileReference; name = "Entypo.ttf"; path = "../node_modules/native-base/Fonts/Entypo.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		62E29EA331DE469C965BB49A /* EvilIcons.ttf */ = {isa = PBXFileReference; name = "EvilIcons.ttf"; path = "../node_modules/native-base/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		414676E1DBC44624A14DA3FE /* FontAwesome.ttf */ = {isa = PBXFileReference; name = "FontAwesome.ttf"; path = "../node_modules/native-base/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		0B0D36C7D56F4EE58710942F /* Foundation.ttf */ = {isa = PBXFileReference; name = "Foundation.ttf"; path = "../node_modules/native-base/Fonts/Foundation.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		31217C12821F4708B7E54A67 /* Ionicons.ttf */ = {isa = PBXFileReference; name = "Ionicons.ttf"; path = "../node_modules/native-base/Fonts/Ionicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		290BB5B3EE48466D870D50B2 /* MaterialIcons.ttf */ = {isa = PBXFileReference; name = "MaterialIcons.ttf"; path = "../node_modules/native-base/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		06676F64DF72423585E1C23D /* Octicons.ttf */ = {isa = PBXFileReference; name = "Octicons.ttf"; path = "../node_modules/native-base/Fonts/Octicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		2A285F9D6B714739B09F8B47 /* Roboto_medium.ttf */ = {isa = PBXFileReference; name = "Roboto_medium.ttf"; path = "../node_modules/native-base/Fonts/Roboto_medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		7E0CF22C95D6473982D607A4 /* Roboto.ttf */ = {isa = PBXFileReference; name = "Roboto.ttf"; path = "../node_modules/native-base/Fonts/Roboto.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		66D951F566EA4AD398F982CB /* rubicon-icon-font.ttf */ = {isa = PBXFileReference; name = "rubicon-icon-font.ttf"; path = "../node_modules/native-base/Fonts/rubicon-icon-font.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		12B9BD06FCC244FA83DB7BBB /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; name = "SimpleLineIcons.ttf"; path = "../node_modules/native-base/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		A705498FA50E4F399DD44DAD /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/native-base/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -394,6 +399,7 @@
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
+				B9FC73614931620B83A01E66 /* libPods-Imperium.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -543,8 +549,28 @@
 			isa = PBXGroup;
 			children = (
 				2D16E6891FA4F8E400B85C8A /* libReact.a */,
+				0A62D8CE32E318006AE00D65 /* libPods-Imperium.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		30013F1E65754A50B635CC78 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7A1027B158214B84BCB61E99 /* Entypo.ttf */,
+				62E29EA331DE469C965BB49A /* EvilIcons.ttf */,
+				414676E1DBC44624A14DA3FE /* FontAwesome.ttf */,
+				0B0D36C7D56F4EE58710942F /* Foundation.ttf */,
+				31217C12821F4708B7E54A67 /* Ionicons.ttf */,
+				290BB5B3EE48466D870D50B2 /* MaterialIcons.ttf */,
+				06676F64DF72423585E1C23D /* Octicons.ttf */,
+				2A285F9D6B714739B09F8B47 /* Roboto_medium.ttf */,
+				7E0CF22C95D6473982D607A4 /* Roboto.ttf */,
+				66D951F566EA4AD398F982CB /* rubicon-icon-font.ttf */,
+				12B9BD06FCC244FA83DB7BBB /* SimpleLineIcons.ttf */,
+				A705498FA50E4F399DD44DAD /* Zocial.ttf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		5E91572E1DD0AC6500FF2AA8 /* Products */ = {
@@ -602,6 +628,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				30013F1E65754A50B635CC78 /* Resources */,
+				9D5630C9BC5F10C201FD8F90 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -619,6 +646,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		9D5630C9BC5F10C201FD8F90 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7509D57EADD020C60B87A7B5 /* Pods-Imperium.debug.xcconfig */,
+				22D804A0C1D205FB33585ACD /* Pods-Imperium.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		ADBDB9201DFEBF0600ED6528 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -627,26 +663,6 @@
 			);
 			name = Products;
 			sourceTree = "<group>";
-		};
-		30013F1E65754A50B635CC78 /* Resources */ = {
-			isa = "PBXGroup";
-			children = (
-				7A1027B158214B84BCB61E99 /* Entypo.ttf */,
-				62E29EA331DE469C965BB49A /* EvilIcons.ttf */,
-				414676E1DBC44624A14DA3FE /* FontAwesome.ttf */,
-				0B0D36C7D56F4EE58710942F /* Foundation.ttf */,
-				31217C12821F4708B7E54A67 /* Ionicons.ttf */,
-				290BB5B3EE48466D870D50B2 /* MaterialIcons.ttf */,
-				06676F64DF72423585E1C23D /* Octicons.ttf */,
-				2A285F9D6B714739B09F8B47 /* Roboto_medium.ttf */,
-				7E0CF22C95D6473982D607A4 /* Roboto.ttf */,
-				66D951F566EA4AD398F982CB /* rubicon-icon-font.ttf */,
-				12B9BD06FCC244FA83DB7BBB /* SimpleLineIcons.ttf */,
-				A705498FA50E4F399DD44DAD /* Zocial.ttf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-			path = "";
 		};
 /* End PBXGroup section */
 
@@ -673,10 +689,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Imperium" */;
 			buildPhases = (
+				59330F9CDE2D27706A470E8A /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				372BD35F2799C27C1D965585 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -734,7 +752,11 @@
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = JCYLDP5L9N;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = JCYLDP5L9N;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -1155,6 +1177,42 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
+		372BD35F2799C27C1D965585 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Imperium/Pods-Imperium-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Imperium/Pods-Imperium-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59330F9CDE2D27706A470E8A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Imperium-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -1224,6 +1282,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JCYLDP5L9N;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -1245,6 +1304,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = JCYLDP5L9N;
 				INFOPLIST_FILE = ImperiumTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1259,10 +1319,12 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7509D57EADD020C60B87A7B5 /* Pods-Imperium.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = JCYLDP5L9N;
 				INFOPLIST_FILE = Imperium/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -1270,6 +1332,7 @@
 					"-ObjC",
 					"-lc++",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.imperiumpf.Imperium;
 				PRODUCT_NAME = Imperium;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -1277,9 +1340,11 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22D804A0C1D205FB33585ACD /* Pods-Imperium.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JCYLDP5L9N;
 				INFOPLIST_FILE = Imperium/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -1287,6 +1352,7 @@
 					"-ObjC",
 					"-lc++",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.imperiumpf.Imperium;
 				PRODUCT_NAME = Imperium;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
