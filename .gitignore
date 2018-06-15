@@ -22,6 +22,10 @@ DerivedData
 *.xcuserstate
 project.xcworkspace
 
+# Watchman
+#
+.watchmanconfig
+
 # Android/IntelliJ
 #
 build/
@@ -29,6 +33,7 @@ build/
 .gradle
 local.properties
 *.iml
+/android/
 
 # node.js
 #
@@ -54,3 +59,12 @@ buck-out/
 
 # Bundle artifact
 *.jsbundle
+
+# Test generated files
+*.js.meta
+
+/coverage
+/third-party
+
+# Root dir shouldn't have Xcode project
+/*.xcodeproj
