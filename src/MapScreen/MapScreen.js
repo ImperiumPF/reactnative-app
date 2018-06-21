@@ -19,29 +19,66 @@ import {
 } from "native-base";
 import MapView, { PROVIDER_GOOGLE } from 'react-native-maps'
 
+let { width, height } = Dimensions.get('window');
+const ASPECT_RATIO = width / height;
+const LATITUDE = 0;
+const LONGITUDE = 0;
+const LATITUDE_DELTA = 0.0922;
+const LONGITUDE_DELTA = LATITUDE_DELTA * ASPECT_RATIO;
+
 export default class MapScreen extends Component {
-  state = {
-    loading: true,
+  constructor() {
+    super();
+    this.state = {
+      region: {
+        latitude: LATITUDE,
+        longitude: LONGITUDE,
+        latitudeDelta: LATITUDE_DELTA,
+        longitudeDelta: LONGITUDE_DELTA,
+      },
+      markers:
+        {
+          latLong: {
+            latitude: 39.6014488,
+            longitude: -8.4082202,
+          },
+          key: 'Tapavino',
+          title: 'Tapavino',
+          description: '6 Bulletin Pl, Sydney NSW 2000',
+        }
+    };
   }
 
-  componentDidMount() {
-    InteractionManager.runAfterInteractions(() => {
-      this.setState({ loading: false });
-    });
+ componentDidMount = () => {
+  navigator.geolocation.getCurrentPosition(
+    position => {
+      this.setState({
+        region: {
+          latitude: position.coords.latitude,
+          longitude: position.coords.longitude,
+          latitudeDelta: LATITUDE_DELTA,
+          longitudeDelta: LONGITUDE_DELTA,
+        }
+      });
+    },
+  (error) => console.log(error.message),
+  { enableHighAccuracy: true, timeout: 20000, maximumAge: 1000 },
+  );
   }
+
+  componentWillUnmount() {
+    navigator.geolocation.clearWatch(this.watchID);
+  }
+
+  
+
+
+
+
+  
+
 
   render() {
-    const { width, height } = Dimensions.get('window');
-    const ratio = width / height;
-
-    //TODO: Get user coordinates
-    const coordinates = {
-      latitude: 37.78825,
-      longitude: -122.4324,
-      latitudeDelta: 0.0922,
-      longitudeDelta: 0.0922 * ratio,
-      bool: true
-    };
     return (
       <Container>
         <Header>
@@ -65,17 +102,28 @@ export default class MapScreen extends Component {
               <Loading />
             ) : (
               <MapView
+                provider={ PROVIDER_GOOGLE }
                 style={styles.map}
-                initialRegion={coordinates}
-                showsUserLocation={coordinates.bool}
+                showsUserLocation={ true }
+                followsUserLocation={ true }
+                region={ this.state.region }
+              >
+              <MapView.Marker
+                coordinate={this.state.markers.latLong}
+                title={this.state.markers.title}
+                description={this.state.markers.description}
               />
+              </MapView>
             )}
           </View>
         </Content>
 
         <Footer>
           <FooterTab>
-            <Button transparent>
+            <Button 
+              transparent
+              onPress={() => this.props.navigation.navigate("DrawerOpen")}
+            >
               Maps
               <Icon name="ios-map" />
             </Button>

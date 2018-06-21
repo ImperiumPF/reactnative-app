@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import HomeScreen from "./HomeScreen.js";
-import MapScreen from "../MapScreen/index.js";
-import ProfileScreen from "../ProfileScreen/index.js";
+import HomeScreen from "../HomeScreen/HomeScreen.js";
+import MapScreen from "../MapScreen/MapScreen.js";
+import ProfileScreen from "./ProfileScreen.js";
 import SideBar from "../SideBar/SideBar.js";
 import { DrawerNavigator } from "react-navigation";
 
@@ -12,7 +12,6 @@ const HomeScreenRouter = DrawerNavigator(
     Profile: { screen: ProfileScreen }
   },
   {
-    drawerOpenRoute: 'DrawerOpen',
     contentComponent: props => <SideBar {...props} />
   }
 );

@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Image } from "react-native";
 import { Text, Container, List, ListItem, Content } from "native-base";
 
-const routes = ["Home", "Map", "Sign Out"];
+const routes = ["Home", "Map", "Profile", "Sign Out"];
 
 export default class SideBar extends Component {
   render() {
